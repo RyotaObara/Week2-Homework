@@ -1,7 +1,6 @@
 import requests
 import time
 
-# トップページのニュースIDを取得するURL
 url = "https://hacker-news.firebaseio.com/v0/topstories.json"
 
 id_list = requests.get(url).json()
